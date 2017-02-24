@@ -111,7 +111,7 @@ public class EmployeeServiceImpl2Test extends EntityServiceImplTest{
 */
 	
 	public void setPhones (Employee e){
-		Phone phone1 = new Phone();
+/*		Phone phone1 = new Phone();
 		phone1.setContactnumber("5555551");
 		phone1.setPhonetype("TRABAJO");
 		phone1.setEmployee(e);
@@ -125,7 +125,7 @@ public class EmployeeServiceImpl2Test extends EntityServiceImplTest{
 		phones.add(phone1);
 		phones.add(phone2);
 		
-		e.setPhoneNumbers(phones);
+		e.setPhoneNumbers(phones);*/
 	}
 	
 	public Employee getSampleEmployee(){
