@@ -1,1 +1,8 @@
 /target/
+/build
+/.settings
+.project
+.tern-project
+.gradle
+/gradle
+/bin/

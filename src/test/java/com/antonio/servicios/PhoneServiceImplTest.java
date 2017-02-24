@@ -56,7 +56,8 @@ public class PhoneServiceImplTest extends EntityServiceImplTest{
 		
 		//Employee emp = employeeService.findById(2);
 			
-		phone.setEmployee(emp);
+	//	phone.setEmployee(emp);
+		
 		//Phone newPhone = phoneDao.mergePhone(phone);
 		
 		phoneDao.persistPhone(phone);
