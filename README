@@ -1,12 +1,6 @@
 
-Proyecto basado en anotaciones con spring rest, hibernate y angularjs. Este proyecto tiene como objetivo transformar el proyecto descrito
-abajo hacia una relacion OneToMany ManyToMany. A fecha de 17 de enero de 2017, este proyecto funciona con una relacion
-OneToMany ManyToOne con las entidades empleado y telefono. 
+Proyecto basado en anotaciones con spring rest, hibernate y angularjs. Este proyecto tiene como objetivo realizar practicas sobre 
+las herramientas utilizadas. Con hibernate nos hemos centrado en diferentes relaciones entre las entidades empleado y telefono.
+Se ha abordado tambien en cambio de una relacion OneToMany ManyToMany a ManyToMany ManyToMany.
 
-
-Cambio relacion entre entidades:
-1) Cambio del modelo (2017-01-20), cambio desde master para pruebas y cambio tamaño grids en rama asustes-tamano-grids
- 
- 
-
-Issue #3 , cambio del modelo de datos
+Tambien se ha sustituido subversion por Git y maven por gradle.
