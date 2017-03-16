@@ -1,5 +1,6 @@
 apply plugin: 'war'
 apply plugin: 'maven'
+apply plugin: 'eclipse'
 
 group = 'com.antonio'
 version = '1.0-SNAPSHOT'
@@ -52,7 +53,7 @@ task deployToTomcat(dependsOn:build) {
 	   copy {    
 	       println "in deployToTomcat"
 	       from war.archivePath
-	       into tomcatHome + "/webapps"
+	       into tomcatHome 
 	   }
        println "Fin copia del fichero war sobre el path de tomcat"
    }     
