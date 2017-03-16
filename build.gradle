@@ -1,6 +1,6 @@
 apply plugin: 'war'
 apply plugin: 'maven'
-apply plugin: 'eclipse'
+//apply plugin: 'eclipse'
 
 group = 'com.antonio'
 version = '1.0-SNAPSHOT'
