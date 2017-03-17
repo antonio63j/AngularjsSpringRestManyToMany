@@ -10,7 +10,12 @@ import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.springframework.beans.factory.annotation.Autowired;
 
+import org.apache.log4j.Logger;
+import com.antonio.controladores.PhoneController;
+
 public abstract class AbstractDao<PK extends Serializable, T> {
+	
+	final static Logger logger = Logger.getLogger(AbstractDao.class);
 	
 	private final Class<T> persistentClass;
 	
@@ -37,14 +42,14 @@ public abstract class AbstractDao<PK extends Serializable, T> {
 	}
 	
 	public T merge (T entity){
-		System.out.println("merge :" + entity.toString());
+		logger.debug("merge:"  + entity.toString());
 		T e = (T) getSession().merge(entity);
 		getSession().flush();
 		return e;
 	}
 	
 	public void persist(T entity) {
-	    System.out.println("persist :" + entity.toString());
+	    logger.debug("persist:"  + entity.toString());
 		getSession().persist(entity);
 		getSession().flush();
 	}

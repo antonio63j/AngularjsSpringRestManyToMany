@@ -1,12 +1,7 @@
 
-Proyecto basado en anotaciones con spring rest, hibernate y angularjs. Este proyecto tiene como objetivo transformar el proyecto descrito
-abajo hacia una relacion OneToMany ManyToMany. A fecha de 17 de enero de 2017, este proyecto funciona con una relacion
-OneToMany ManyToOne con las entidades empleado y telefono. 
-
-
-Cambio relacion entre entidades:
-1) Cambio del modelo (2017-01-20)
- 
- 
-
-Issue #3 , cambio del modelo de datos
+Proyecto con front-end basado en AngularJs y back-end con anotaciones de spring para hibernate y rest.
+Este proyecto consiste en la implementacion de las siguientes adapataciones desde un proyecto con una relacion
+entre las entidades empleado y telefono OneToMany ManyToMany:
+1. Paso a realicion ManyToMany ManyToMany
+2. Paso a gradle desde maven
+3. Paso a git desde subversion
