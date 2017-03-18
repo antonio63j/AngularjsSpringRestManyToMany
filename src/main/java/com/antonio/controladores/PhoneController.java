@@ -49,7 +49,8 @@ public class PhoneController {
     
 
     //-------------------Create a Phone -------------------------------------------------------
-    
+    // No está permitiendo modificar un telefono con otro existente, pero si que es posible añadir
+    // un telefono existente a un empleado. Hay que permiter dichas modificaciones
     @RequestMapping(value = "/phone/{idEmployee}", method = RequestMethod.POST)
     public ResponseEntity<String> createPhone(@PathVariable("idEmployee") int id, @Valid @RequestBody Phone phone) {
         if (phoneService.cratePhone(phone, id)) {
