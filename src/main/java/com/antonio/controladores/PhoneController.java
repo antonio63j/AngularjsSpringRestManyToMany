@@ -38,7 +38,8 @@ public class PhoneController {
 	EmployeeService employeeService;
 	
 	 //------------------- Update a Phone --------------------------------------------------------
-	
+	// desde pl2 apuntamos que crear y modificar deben ser coherentes y permitir que un mismo 
+	// telefono pueda compartirse entre varios.
     @RequestMapping(value = "/phone/{id}", method = RequestMethod.PUT) 
 	public ResponseEntity<Phone> updatePhone(@PathVariable("id") Long id, @Valid @RequestBody Phone phone){
     	Phone phoneActualizado = null;
