@@ -4,6 +4,9 @@ import javax.servlet.Filter;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
+// Cualquier clase que extiende AbstractAnnotationConfigDispatcherServletInitializer, lo utilizará
+// spring para configurar el DistpacherServlet.
+
 public class AppInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
  
     @Override
