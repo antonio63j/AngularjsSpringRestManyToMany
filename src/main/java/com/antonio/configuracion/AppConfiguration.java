@@ -19,6 +19,7 @@ import org.springframework.web.servlet.view.JstlView;
 @ComponentScan(basePackages = "com.antonio")
 
 public class AppConfiguration extends WebMvcConfigurerAdapter{
+// Esta clase debe cargarse con getServletConfigClasses() y no con getRootConfigClasses()
 	
    //   desde spring-ws se informa que este metodo no es necesario  
 /* Ya tenemos IndexController.java que hace esto mismo  
