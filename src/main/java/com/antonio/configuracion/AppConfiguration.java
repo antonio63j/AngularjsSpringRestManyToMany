@@ -20,10 +20,13 @@ import org.springframework.web.servlet.view.JstlView;
 
 public class AppConfiguration extends WebMvcConfigurerAdapter{
 	
-    @Override
+     
+/* Ya tenemos IndexController.java que hace esto mismo  
+   @Override
     public void addViewControllers(ViewControllerRegistry registry) {
         registry.addViewController("/").setViewName("index");
     }
+ */  
 	
 	@Override
 	public void configureViewResolvers(ViewResolverRegistry registry) {
