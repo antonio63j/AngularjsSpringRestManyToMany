@@ -20,7 +20,7 @@ import org.springframework.web.servlet.view.JstlView;
 
 public class AppConfiguration extends WebMvcConfigurerAdapter{
 	
-     
+   //   desde spring-ws se informa que este metodo no es necesario  
 /* Ya tenemos IndexController.java que hace esto mismo  
    @Override
     public void addViewControllers(ViewControllerRegistry registry) {
