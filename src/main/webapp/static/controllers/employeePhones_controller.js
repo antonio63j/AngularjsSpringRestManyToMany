@@ -118,7 +118,7 @@ app.controller('EmployeePhonesCtrl',  function ($scope,
     var phoneTypes = [
     	{name : "MOVIL DE TRABAJO", value: "MOVIL TRABAJO"},
     	{name : "MOVIL PERSONAL", value: "MOVIL PERSONAL"},
-    	{name : "FIJO DE CASA", value: "EL FIJO CASA"}
+    	{name : "FIJO DE CASA", value: "FIJO CASA"}
     ];
 
     // helper functions
