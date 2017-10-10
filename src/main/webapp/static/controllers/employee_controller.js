@@ -168,13 +168,13 @@ app.controller('EmployeeCtrl',  function ($scope,
       enableSorting: false,
       enableHiding: false,
       enableColumnMenu: false,
-      displayName: 'Phones'}, 
+      displayName: 'Teléfonos'}, 
     
     
-    { name: 'name'},
-    { name: 'joiningDate',  type:'date', displayName: "Cust Date", cellFilter: 'date:"dd-MM-yyyy"', required: true},
-    { name: 'salary', displayName: 'salary (not focusable)', allowCellFocus : false },
-    { name: 'ssn', required: true }
+    { name: 'name', displayName:'Nombre'},
+    { name: 'joiningDate',  type:'date', displayName: "Fecha alta", cellFilter: 'date:"dd-MM-yyyy"', required: true},
+    { name: 'salary', displayName: 'Salario', allowCellFocus : false },
+    { name: 'ssn', displayName:'Número SS',  required: true }
   ];
  
   $scope.gridOptions.multiSelect = false;
