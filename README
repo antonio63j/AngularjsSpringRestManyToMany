@@ -19,5 +19,5 @@ Adaptación del proyecto a nuestro entorno:
 -----------------------------------------------
 Tomcat:
 En el fichero dradle.properties, asignar a la variable tomcatHome, la carpeta donde se pondrá el .war
-  tomcatHome=C:\\AppPortables\\WebServers\\apache-tomcat-8.5.11\\webapps
+  tomcatHome=C:\\AppPortables\\WebServers\\apache-tomcat-8.5.11\\webapps; por ejemplo
 
