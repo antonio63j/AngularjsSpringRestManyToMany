@@ -5,3 +5,5 @@ entre las entidades empleado y telefono OneToMany ManyToMany:
 1. Paso a realicion ManyToMany ManyToMany
 2. Paso a gradle desde maven
 3. Paso a git desde subversion
+
+Instrucciones para importar el proyecto en eclipse:
