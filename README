@@ -8,3 +8,16 @@ entre las entidades empleado y telefono OneToMany ManyToMany:
 
 Instrucciones para importar el proyecto en eclipse:
 --------------------------------------------------
+1. Importar Proyecto ->Git ->Projects from Git->Clone URI
+2. URI:https://github.com/antonio63j/AngularjsSpringRestManyToMany
+3: Seleccionar master y <Next>
+4: Directory: D:\ProyectosJava\AngularSpringRest\AngularjsSpringRestManyToMany; por ejemplo
+5: Seleccionar "Import as general project"
+6: <Finish>
+
+Adaptación del proyecto a nuestro entorno:
+-----------------------------------------------
+Tomcat:
+En el fichero dradle.properties, asignar a la variable tomcatHome, la carpeta donde se pondrá el .war
+  tomcatHome=C:\\AppPortables\\WebServers\\apache-tomcat-8.5.11\\webapps
+
