@@ -68,7 +68,7 @@ app.controller('EmployeePhonesCtrl',  function ($scope,
       });
 
       gridApi.selection.on.rowSelectionChangedBatch($scope,function(rows){
-        var msg = 'rows changed ' + rows.length;
+        var msg = 'registro cambiado ' + rows.length;
         $log.log(msg);
       });
     };
@@ -81,7 +81,7 @@ app.controller('EmployeePhonesCtrl',  function ($scope,
   vm.env = getENV();
 
   function editPhone(phone){
-      var msg = 'row selected ' + phone + ':' + JSON.stringify(phone, null,2);
+      var msg = 'registro seleccionado ' + phone + ':' + JSON.stringify(phone, null,2);
       $log.log(msg);
       shareAccion.setAccion('Update');
       edit(phone);
