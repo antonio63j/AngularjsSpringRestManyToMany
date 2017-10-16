@@ -21,17 +21,18 @@ Instrucciones para importar el proyecto en eclipse:
 5. Seleccionar "Import as general project"
 6. <Finish>
 
-Adaptación del proyecto a nuestro entorno:
+AdaptaciÃ³n del proyecto a nuestro entorno:
 ------------------------------------------
-==Tomcat:==
-En el fichero dradle.properties, asignar a la variable tomcatHome, la carpeta donde se pondrá el .war
+**Tomcat:**
+En el fichero dradle.properties, asignar a la variable tomcatHome, la carpeta donde se pondrï¿½ el .war
   tomcatHome=C:\\AppPortables\\WebServers\\apache-tomcat-8.5.11\\webapps; por ejemplo
 
-==MySql:==
-En el arranque de la aplicación se creará la BD en el caso de que no exista. Tambien la configuracion de hibernate
-permite crear las tablas si no existen. Tendremo únicamente que establecer usuario y password de la DB:
+**MySql:**
+En el arranque de la aplicaciÃ³n se crearÃ¡ la BD en el caso de que no exista. Tambien la configuracion de hibernate
+permite crear las tablas si no existen. Tendremo Ãºnicamente que establecer usuario y password de la DB en el fichero properties:
 jdbc.username = root
 jdbc.password = root
+
 
 Para probar:
 ------------
