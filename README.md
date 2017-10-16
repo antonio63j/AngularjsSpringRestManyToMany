@@ -30,7 +30,7 @@ En el fichero dradle.properties, asignar a la variable tomcatHome, la carpeta do
   tomcatHome=C:\\AppPortables\\WebServers\\apache-tomcat-8.5.11\\webapps; por ejemplo
 
 **MySql:**
-En el arranque de la aplicación se creará la BD en el caso de que no exista. Tambien la configuracion de hibernate
+En el arranque de la aplicación se creará la BD en el caso de que no exista. También la configuracion de hibernate
 permite crear las tablas si no existen. Tendremo únicamente que establecer usuario y password de la DB en el fichero properties:
 
 jdbc.username = root
