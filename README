@@ -1,7 +1,0 @@
-
-Proyecto con front-end basado en AngularJs y back-end con anotaciones de spring para hibernate y rest.
-Este proyecto consiste en la implementacion de las siguientes adapataciones desde un proyecto con una relacion
-entre las entidades empleado y telefono OneToMany ManyToMany:
-1. Paso a relacion ManyToMany ManyToMany
-2. Paso a gradle desde maven
-3. Paso a git desde subversion

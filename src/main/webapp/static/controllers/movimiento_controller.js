@@ -58,13 +58,13 @@ app.controller('MovimientoCtrl',  function ($scope, $http, $log, MovimientoServi
    
   $scope.gridOptions.columnDefs = [
     { name: 'id' },
-    { name: 'date',  type:'date', displayName: "Mov. Date", cellFilter: 'date:"dd-MM-yyyy"'},
-    { name: 'accion', displayName: 'Movimiento', allowCellFocus : false },
-    { name: 'employeeId', displayName: 'employeeId', allowCellFocus : false },
-    { name: 'employeeName', displayName: 'Name', allowCellFocus : false },
-    { name: 'employeeJoiningDate',  type:'date', displayName: "Joining Date", cellFilter: 'date:"dd-MM-yyyy"'},
-    { name: 'employeeSalary', displayName: 'salary', allowCellFocus : false },
-    { name: 'employeeSsn', displayNmae: 'Ssn', allowCellFocus : false}
+    { name: 'date',  type:'date', displayName: "Fecha movimiento", cellFilter: 'date:"dd-MM-yyyy"'},
+    { name: 'accion', displayName: 'Tipo Movimiento', allowCellFocus : false },
+    { name: 'employeeId', displayName: 'Empleado', allowCellFocus : false },
+    { name: 'employeeName', displayName: 'Nombre', allowCellFocus : false },
+    { name: 'employeeJoiningDate',  type:'date', displayName: "Fecha", cellFilter: 'date:"dd-MM-yyyy"'},
+    { name: 'employeeSalary', displayName: 'Salario', allowCellFocus : false },
+    { name: 'employeeSsn', displayName: 'SS Empleado', allowCellFocus : false}
   ];
   
 /*  function solicitarPagina(pagina){

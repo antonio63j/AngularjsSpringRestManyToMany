@@ -77,7 +77,7 @@ public class EmployeeController {
     @RequestMapping(value = "/employee/phones/{id}", method = RequestMethod.GET)
     public ResponseEntity<List<Phone>> listEmployeePhones(@PathVariable("id") int id) {
         List<Phone> phones = employeeService.listEmployeePhones(id);    
-        logger.debug("Telefonos del empleado con id = " + id + ":" + phones.toString());
+        logger.debug("Lista de telefonos del empleado con id = " + id + ":" + phones.toString());
         return new ResponseEntity<List<Phone>>(phones, HttpStatus.OK);
     }
   
