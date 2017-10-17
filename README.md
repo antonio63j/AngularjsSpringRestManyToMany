@@ -18,7 +18,7 @@ Instrucciones para importar el proyecto en eclipse:
 ---------------------------------------------------
 - Importar Proyecto ->Git ->Projects from Git->Clone URI
 URI:https://github.com/antonio63j/AngularjsSpringRestManyToMany
-- Seleccionar master y:
+- Seleccionar master:
 - Directory: D:\ProyectosJava\; aquí eclipse creará la carpeta AngularjsSpringRestManyToMany
 - Seleccionar "Import as general project"
 - Para correr esta aplicación en debug, ha sido necesario convertir este proyecto en un proyecto gradlew.
