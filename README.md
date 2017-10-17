@@ -1,9 +1,9 @@
 # Proyecto AngularjsSpringRestManyToMany
 Proyecto con front-end basado en AngularJs y back-end con anotaciones de spring para hibernate y rest.
 Este proyecto consiste en la implementacion de las siguientes adapataciones a partir de un proyecto eclipse con una relación entre las entidades empleado y telefono OneToMany ManyToMany:
-1. Paso a realicion ManyToMany ManyToMany
-2. Paso a gradle desde maven
-3. Paso a git desde subversion
+- Paso a realicion ManyToMany ManyToMany
+- Paso a gradle desde maven
+- Paso a git desde subversion
 
 Herramientas / Frameworks y componentes empleados:
 --------------------------------------------------
@@ -12,7 +12,7 @@ Herramientas / Frameworks y componentes empleados:
 - Spring con anotaciones para Rest e Hibernate.
 - Git
 - Gradlew
-- Gestor de bd MySql
+- Gestor MySql
 
 Instrucciones para importar el proyecto en eclipse:
 ---------------------------------------------------
@@ -23,10 +23,12 @@ URI:https://github.com/antonio63j/AngularjsSpringRestManyToMany
 - Seleccionar "Import as general project"
 - Para disponer de la funcionalidades de eclipse como debug o ejecución de tareas gradle, ha sido necesario convertir este proyecto en un proyecto gradle.
 
-	Visión del proyecto desde el explorador de eclipse.
+Visión del proyecto desde el explorador de eclipse.
+
 ![Vision proyecto ](/doc/exploradorProyectosEclipse.jpg "Tarea para compilar y desplegar")
 
-	El proyecto contiene una tarea gradle para compilar y desplegar el war.
+El proyecto contiene una tarea gradle para compilar y desplegar el war.
+
 ![Desde Run configuration ](/doc/gradleCompilarDesplegar.jpg "Tarea para compilar y desplegar")
 
 Adaptación del proyecto a nuestro entorno:
@@ -45,5 +47,3 @@ jdbc.password = root
 Para probar:
 ------------
 [http://localhost:8080/AngularjsSpringRestManyToMany](http://)
-
-
