@@ -8,10 +8,10 @@ Este proyecto consiste en la implementacion de las siguientes adapataciones a pa
 Herramientas / Frameworks y componentes empleados:
 --------------------------------------------------
 - Angujar y los siguientes componentes de angular:
-'ngTouch', 'ui.grid', 'ui.grid.pagination','ui.grid.selection','ui.grid.resizeColumns', 'ngRoute','formly', 'formlyBootstrap', 'ui.bootstrap','ui.bootstrap.tpls'
+'ngTouch', 'ui.grid','ui.grid.pagination','ui.grid.selection','ui.grid.resizeColumns', 'ngRoute','formly', 'formlyBootstrap', 'ui.bootstrap','ui.bootstrap.tpls'
 - Spring con anotaciones para Rest e Hibernate.
 - Git
-- Gradlew
+- Gradle
 - Gestor MySql
 
 Instrucciones para importar el proyecto en eclipse:
@@ -41,8 +41,7 @@ En el fichero dradle.properties, asignar a la variable tomcatHome, la carpeta do
 En el arranque de la aplicación se creará la BD en el caso de que no exista. También la configuracion de hibernate
 permite crear las tablas si no existen. Tendremo únicamente que establecer usuario y password de la DB en el fichero properties:
 
-jdbc.username = root
-jdbc.password = root
+jdbc.username = root y jdbc.password = root
 
 Para probar:
 ------------
