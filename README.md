@@ -22,11 +22,21 @@ URI:https://github.com/antonio63j/AngularjsSpringRestManyToMany
 - Directory: D:\ProyectosJava\; aqu铆 eclipse crear谩 la carpeta AngularjsSpringRestManyToMany
 - Seleccionar "Import as general project"
 
+<<<<<<< HEAD
 	Visi贸n del proyecto desde el explorador de eclipse
 ![Vision proyecto ](/doc/exploradorProyectosEclipse.jpg "Tarea para compilar y desplegar")
 - Para disponer de la funcionalidades de eclipse como debug o ejecuci贸n de tareas gradle, ha sido necesario convertir este proyecto en un proyecto gradle.
 
 	El proyecto contiene una tarea gradle para compilar y desplegar el war.
+=======
+Visi髇 del proyecto desde el explorador de eclipse
+![Vision proyecto ](/doc/exploradorProyectosEclipse.jpg "Tarea para compilar y desplegar")
+- Para disponer de la funcionalidades de eclipse como debug o ejecuci贸n de tareas gradle, ha sido necesario convertir este proyecto en un proyecto gradle.
+El proyecto contiene una tarea gradle para compilar y desplegar el war.
+- Para disponer de la funcionalidades de eclipse como debug o ejecuci贸n de tareas gradle, ha sido necesario convertir este proyecto en un proyecto gradle.
+
+El proyecto contiene una tarea gradle para compilar y desplegar el war.
+>>>>>>> f8d97f12e4a56434f9fe745d00d3a872bd424a60
 ![Desde Run configuration ](/doc/gradleCompilarDesplegar.jpg "Tarea para compilar y desplegar")
 
 Adaptaci贸n del proyecto a nuestro entorno:
