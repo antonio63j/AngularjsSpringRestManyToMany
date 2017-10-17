@@ -23,9 +23,10 @@ URI:https://github.com/antonio63j/AngularjsSpringRestManyToMany
 - Seleccionar "Import as general project"
 - Para disponer de la funcionalidades de eclipse como debug o ejecución de tareas gradle, ha sido necesario convertir este proyecto en un proyecto gradle.
 
-Visión del proyecto desde el explorador de eclipse.
+	Visión del proyecto desde el explorador de eclipse.
 ![Vision proyecto ](/doc/exploradorProyectosEclipse.jpg "Tarea para compilar y desplegar")
-El proyecto contiene una tarea gradle para compilar y desplegar el war.
+
+	El proyecto contiene una tarea gradle para compilar y desplegar el war.
 ![Desde Run configuration ](/doc/gradleCompilarDesplegar.jpg "Tarea para compilar y desplegar")
 
 Adaptación del proyecto a nuestro entorno:
