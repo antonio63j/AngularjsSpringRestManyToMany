@@ -1,7 +1,11 @@
-# Proyecto AngularjsSpringRestManyToMany
-Proyecto con front-end basado en AngularJs y back-end con anotaciones de spring para hibernate y rest.
-Este proyecto consiste en la implementacion de las siguientes adapataciones a partir de un proyecto eclipse con una relación entre las entidades empleado y telefono OneToMany ManyToMany:
-- Paso a realicion ManyToMany ManyToMany
+# **Proyecto AngularjsSpringRestManyToMany**
+Proyecto con front-end basado en AngularJs y back-end con anotaciones de spring para hibernate y rest. Funcionalmente este proyecto realiza CRUD en la ralación entre las entidades empleado y telefono:
+- Alta, consulta, modificación y baja de empleados
+- Alta, consulta, modificación y baja de teléfonos de un empleado
+- Consulta sobre de movimientos o actualiciones realizadas (con paginación).
+
+Ultimos cambios importantes:
+- Paso a realicion ManyToMany ManyToMany desde OneToMany ManyToMany
 - Paso a gradle desde maven
 - Paso a git desde subversion
 
