@@ -1,6 +1,6 @@
 # **Proyecto AngularjsSpringRestManyToMany**
 Proyecto con front-end basado en AngularJs y back-end con anotaciones de spring para hibernate y rest. Funcionalmente este proyecto realiza CRUD en la ralaci贸n entre las entidades empleado y telefono:
-- Alta, consulta, modificaci贸n y baja de empleados
+- Alta, consulta, modificaci髇 y baja de empleados
 - Alta, consulta, modificaci贸n y baja de tel茅fonos de un empleado
 - Consulta sobre de movimientos o actualiciones realizadas (con paginaci贸n).
 
