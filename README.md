@@ -21,7 +21,10 @@ URI:https://github.com/antonio63j/AngularjsSpringRestManyToMany
 - Seleccionar master:
 - Directory: D:\ProyectosJava\; aquí eclipse creará la carpeta AngularjsSpringRestManyToMany
 - Seleccionar "Import as general project"
-- Para correr esta aplicación en debug, ha sido necesario convertir este proyecto en un proyecto gradlew.
+- Para disponer de la funcionalidades de eclipse como debug o ejecución de tareas gradle, ha sido necesario convertir este proyecto en un proyecto gradle.
+El proyecto contiene una tarea gradle para compilar y desplegar el war.
+![Desde Run configuration ](\doc\gradleCompilarDesplegar.jpg "Tarea para compilar y desplegar")
+
 
 
 Adaptación del proyecto a nuestro entorno:
